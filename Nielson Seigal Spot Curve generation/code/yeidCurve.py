@@ -371,11 +371,11 @@ def main():
 
     ## CSV file generation
     logging.info(msg="Calibration completed")
-    output_parameters.to_csv(params.FileOutpath.value+"/investcloud_NS_paramters.csv")
+    output_parameters.to_csv(params.FileOutpath.value+"/NS_paramters.csv")
     logging.info("investcloud_NS_paramters.csv file generated sucessfully")
     output_NS.to_csv(params.FileOutpath.value+"investcloud_NS_predicted_spot.csv")
     logging.info("investcloud_NS_predicted_spot.csvfile generated sucessfully")
-    statsOutput.to_csv(params.FileOutpath.value + "/investcloud_NSActualPreredictedStatsComp.csv")
+    statsOutput.to_csv(params.FileOutpath.value + "/NSActualPreredictedStatsComp.csv")
     logging.info("investcloud_NSActualPreredictedStatsComp.csv generated sucessfully")
     logging.info('Completed')
 
