@@ -1,0 +1,1 @@
+As part of this project, we worked towards creation of equity portfolio of growth stocks using Quantitative Equity Portfolio technique and tracking portfolio return against the selected Benchmark (S&P 100) index. By using multiple unique factors in our model, we aim to build a more concentrated portfolio of stocks with the highest scoring factor profiles.
